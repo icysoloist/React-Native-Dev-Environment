@@ -1,0 +1,2 @@
+# Ignore heavily commented config files
+tsconfig.json
