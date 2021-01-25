@@ -4,7 +4,7 @@ All the necessary files to configure your development environment for a brand ne
 ## Instructions for Setup
 Because a React Native project has a lot of configuration files (for both iOS/Android), it is difficult to rename the project, its dependencies, and its package names. For that reason, it is best to start a new project from scratch, and then copy over any files needed to configure the rest of the environment.
 
-> The instructions below are tightly coupled with the assumption that you have gone through the [React Native Docs](https://reactnative.dev/docs/environment-setup)
+> The instructions below are tightly coupled with the assumption that you have read about [Setting Up A Development Environment](https://reactnative.dev/docs/environment-setup) in the React Native official docs.
 
 ### Step 1
 Initialize a new React Native app with the command:\
