@@ -21,11 +21,14 @@ Setup dependencies for the project.
 Copy over the environment configuration files.
 - `tsconfig.json` : defines TypeScript compiler/configuration settings
 - `metro.config.js` : configuration for Facebook's Metro bundler
+- `jest.config.js` : Jest (testing library) config
 - `.babelrc` : Babel (JSX transpiler) config. Be sure to remove/rename the existing `babel.config.js`
 - `.prettierrc` : Prettier (code formatter) config. Be sure to remove/rename the existing `prettierrc.js`
 - `.eslintrc` : ESLint (code linter) config. Be sure to remove/rename the existing `eslintrc.js`
 - `.prettierignore` : Defines files to not be formatted by Prettier (similar to `.gitignore`)
 - `index.js` : root file for the project
+
+> If the linters/formatters are throwing red squillies even after all files have been copied over, try reloading the developer window (CTRL+SHIFT+P in VSCode)
 
 ### Step 4 (for VSCode users only)
 #### TODO - specify VSCode settings.json edits
